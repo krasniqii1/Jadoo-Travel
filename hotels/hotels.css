@@ -5,25 +5,38 @@
     font-family: poppins;
 }
 
-header {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    color: white;
+
+
+.navbar {
+    margin: 30px 120px 20px 120px ;
+    gap: 60px;
+    display: flex; 
     align-items: center;
-    padding: 10px 20px;
-    position: fixed;
-    width: 100%;
+    color: var(--1st, #212832);
+    font-family: Google Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 999;
 }
 
-header h2 {
-    font-weight: 500;
+.navbar img {
+    margin-right: auto;
+    cursor: pointer;
 }
 
-header a {
-    color: white;
+.navbar a {
+    text-decoration: none;
+    color: black;
+    z-index: 9999;
 }
 
+.navbar :nth-last-child(2) {
+    border: 0.2px solid #212832;
+    padding: 5px 9px;
+    border-radius: 5px;
+}
 
 /*page1*/
 

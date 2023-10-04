@@ -63,3 +63,9 @@ async function getData () {
 }
 
 getData()
+
+
+const homePage = document.querySelector('.logoo');
+homePage.addEventListener('click', () => {
+    window.location.href = '../index.html'
+})
